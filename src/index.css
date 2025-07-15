@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --font-playwrite: "Playwrite GB S", cursive;
+    --font-play: "Playwrite IN Guides", serif;
+    --font-ubuntu: "Ubuntu", sans-serif;
+    --font-kanit: "Kanit", serif;
+    --font-merriweather: "Merriweather", serif;
+
+
+    --color-dark: #09090b;
+    --color-light: #ffffff;
+}
+
+nav button {
+    @apply text-lg text-gray-400 mx-1 hover:cursor-pointer rounded-2xl px-5 transition-all border-0 border-gray-600 hover:border-b hover:text-xl hover:mx-5 ease-in-out duration-200
+}
+
+nav button.active {
+    @apply text-2xl font-medium text-gray-300 mx-5 hover:cursor-pointer rounded-2xl px-5 border-b border-gray-300
+}
