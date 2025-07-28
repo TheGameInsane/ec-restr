@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <div
         style={{
-          backgroundImage: "url('/images/bgstars.png')",
+          backgroundImage: "url('/ec-restr/images/bgstars.png')",
           backgroundSize: "300px",
           backgroundAttachment: 'fixed'
         }}>

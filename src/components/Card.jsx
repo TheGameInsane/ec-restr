@@ -7,7 +7,7 @@ function CardElement({ image, name, desc, type }) {
     return (
         <>
             <div className={`flex flex-col w-fit relative rounded-2xl shadow-lg`} style={{
-                backgroundImage: "url('/images/royal.svg')",
+                backgroundImage: "url('/ec-restr/images/royal.svg')",
                 backgroundSize: "150px"
             }}>
                 <div className={`absolute backdrop-blur-[1px] w-full h-full top-0 left-0 ${colorMode == 'light' ? 'bg-linear-to-tr from-light via-white/0 to-light' : 'bg-linear-to-tr from-dark via-white/0 to-dark'}`}></div>

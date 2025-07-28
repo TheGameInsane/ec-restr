@@ -16,7 +16,7 @@ function Hero() {
             <div id="home" className={`relative h-screen`}>
                 <motion.div className="w-full h-full bg-repeat"
                     style={{
-                        backgroundImage: "url('/images/royal.svg')",
+                        backgroundImage: "url('/ec-restr/images/royal.svg')",
                         backgroundSize: "500px",
                         backgroundPositionY: "0px", // fixed Y
                         backgroundPositionX: backgroundX,
